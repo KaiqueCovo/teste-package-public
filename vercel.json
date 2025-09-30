@@ -1,0 +1,9 @@
+{
+  "installCommand": "yarn config set \"@criticalmassbr:registry\" \"https://npm.pkg.github.com\" && yarn config set \"//npm.pkg.github.com/:_authToken\" \"$NPM_TOKEN\" && yarn install --frozen-lockfile",
+  "buildCommand": "yarn build",
+  "framework": "vite",
+  "outputDirectory": "dist",
+  "env": {
+    "NPM_TOKEN": "@npm_token"
+  }
+}
